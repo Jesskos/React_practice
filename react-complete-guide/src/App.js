@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -11,5 +10,7 @@ class App extends Component {
     );
   }
 }
+
+React.createElement('div', null, 'h1', 'I am a React Element')
 
 export default App;
