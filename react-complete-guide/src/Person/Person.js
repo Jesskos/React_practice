@@ -11,7 +11,15 @@ import React from "react";
 // we don
 
 const person = (props) => {
-	return <p> I'm {props.name} and {props.age} years old </p>
-}
+	// props.children refers to anything between the opening and closing tag of the component 
+	return (
+		<div>
+		  <p> I'm {props.name} and {props.age} years old </p>
+		  <p> {props.children} </p>
+		</div>
+	)
+};
 
 export default person
+
+// props.children refers to anything between the opening and closing tag of the component 
