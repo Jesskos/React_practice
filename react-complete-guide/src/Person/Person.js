@@ -11,7 +11,11 @@ import React from "react";
 // we don
 
 const person = (props) => {
+	// props is an object giving us access to all of the attributes we passed to our own components
+	// props care set and managed outside
 	// props.children refers to anything between the opening and closing tag of the component 
+	// 'state' is not available in function components
+
 	return (
 		<div>
 		  <p> I'm {props.name} and {props.age} years old </p>
@@ -22,4 +26,3 @@ const person = (props) => {
 
 export default person
 
-// props.children refers to anything between the opening and closing tag of the component 
