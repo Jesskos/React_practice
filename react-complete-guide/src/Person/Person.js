@@ -10,8 +10,8 @@ import React from "react";
 // a compoenet is a function returning some jsx
 // we don
 
-const person = () => {
-	return <p>I am a Person</p>
+const person = (props) => {
+	return <p> I'm {props.name} and {props.age} years old </p>
 }
 
 export default person
