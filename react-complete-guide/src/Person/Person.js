@@ -15,6 +15,7 @@ const person = (props) => {
 	// props care set and managed outside
 	// props.children refers to anything between the opening and closing tag of the component 
 	// 'state' is not available in function components
+	// use function components as often as possible, using state too often can make app unpredictable
 
 	return (
 		<div>
